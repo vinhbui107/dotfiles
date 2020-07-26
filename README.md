@@ -1,1 +1,1 @@
-# My dotfiles
+# My configs
