@@ -103,20 +103,20 @@ font:
   # The normal (roman) font face to use.
   # Style can be specified to pick a specific face.
   normal:
-    family: "Fira Code"
+    family: "MesloLGS NF"
     # family: "Source Code Pro"
     style: Retina
 
   # The bold font face
   bold:
-    family: "Fira Code"
+    family: "MesloLGS NF"
     # family: "Source Code Pro"
     style: Medium
 
   # The italic font face
   italic:
     # family: "Source Code Pro"
-    family: "Fira Code"
+    family: "MesloLGS NFe"
     style: Italic
 
   # Point size of the font
@@ -255,10 +255,10 @@ colors:
 #   - Linear
 #
 # Specifying a `duration` of `0` will disable the visual bell.
-visual_bell:
-  animation: EaseOutExpo
-  duration: 0
-  color: '0xffffff'
+# visual_bell:
+#   animation: EaseOutExpo
+#   duration: 0
+#   color: '0xffffff'
 
 # Background opacity
 #
@@ -325,7 +325,7 @@ selection:
   save_to_clipboard: false
 
 # Allow terminal applications to change Alacritty's window title.
-dynamic_title: true
+# dynamic_title: true
 
 cursor:
   # Cursor style
@@ -334,7 +334,7 @@ cursor:
   #   - ▇ Block
   #   - _ Underline
   #   - | Beam
-  style: Block
+  style: Beam
 
   # If this is `true`, the cursor will be rendered as a hollow box when the
   # window is not focused.
