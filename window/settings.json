@@ -1,0 +1,234 @@
+{
+  // gist
+  "sync.gist": "975233c00de6f932e43173a77f793232",
+
+  // editor setting
+  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 22,
+  "editor.fontLigatures": true,
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorStyle": "line",
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  "editor.suggestSelection": "first",
+  "editor.parameterHints.enabled": false,
+  "editor.rulers": [89],
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "selection",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "editor.minimap.enabled": false,
+
+  // terminal setting
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.inheritEnv": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.defaultProfile.windows": "Git Bash", // for Window OS
+  "terminal.integrated.splitCwd": "workspaceRoot",
+
+  // breadrumbs
+  "breadcrumbs.enabled": true,
+  "breadcrumbs.filePath": "on",
+
+  // workbench
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.statusBar.visible": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.untitled.hint": "hidden",
+
+  // python settings
+  "python.pythonPath": "python",
+  "python.linting.enabled": true,
+  "python.languageServer": "Default",
+  "python.linting.pycodestyleEnabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.pycodestyleArgs": ["--ignore=E501"],
+  "python.linting.pylintArgs": ["--load-plugins=pylint_django", "--errors-only", "E128", "--load-plugins"],
+
+  "python.formatting.provider": "black",
+  // "python.formatting.blackPath": "/home/vinh/.local/bin/black",
+
+  "[python]": {
+    "editor.tabSize": 4,
+    "editor.cursorWidth": 4,
+    "editor.defaultFormatter": "ms-python.python"
+  },
+
+  "[php]": {
+    "editor.tabSize": 4,
+    "editor.cursorWidth": 4
+  },
+
+  // javascript settings
+  "[javascript]": {
+    "editor.tabSize": 2,
+    "editor.cursorWidth": 2,
+
+    "editor.suggest.insertMode": "replace"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // other
+  "[yaml, yml, json, html, css]": {
+    "editor.tabSize": 2,
+    "editor.cursorWidth": 2,
+
+    "editor.insertSpaces": true,
+    "editor.autoIndent": "keep",
+    "editor.quickSuggestions": {
+      "other": true,
+      "comments": false,
+      "strings": true
+    }
+  },
+
+  // exploerer settings
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+
+  // files settings
+  "files.autoSave": "onFocusChange",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.associations": {
+    "**/templates/*.html": "django-html",
+    "**/templates/*": "django-txt",
+    "**/requirements{/**,*}.{txt,in}": "pip-requirements"
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/.idea": true,
+    "**/*__pycache__": true,
+    "**/*.pyc": true,
+    "**/**/*__pycache__": true,
+    "**/**/**/*__pycache__": true,
+    "**/**/**/**/*__pycache__": true,
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "files.insertFinalNewline": true,
+
+  // git settings
+  "git.suggestSmartCommit": false,
+  "git.autofetch": true,
+  "scm.diffDecorations": "none", // disable gutter
+
+  // bracket settings
+  "bracket-pair-colorizer-2.colors": [
+    "Gold",
+    "Chocolate",
+    // "Gold",
+    "Turquoise",
+    "Chartreuse"
+  ],
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.highlightActiveScope": true,
+  "bracket-pair-colorizer-2.activeScopeCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.showBracketsInRuler": true,
+  "bracket-pair-colorizer-2.scopeLineRelativePosition": true,
+  "bracket-pair-colorizer-2.scopeLineCSS": [
+    "borderStyle : solid",
+    "borderWidth : 1px",
+    "borderColor : {color}",
+    "opacity: 0.5"
+  ],
+
+  // other extension settings
+  "liveServer.settings.donotShowInfoMsg": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "liveServer.settings.donotVerifyTags": true,
+
+  "prettier.printWidth": 120,
+  "better-comments.highlightPlainText": false,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#98C379",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    }
+  ],
+  "security.workspace.trust.untrustedFiles": "open",
+  "yaml.customTags": [
+    "!And",
+    "!And sequence",
+    "!If",
+    "!If sequence",
+    "!Not",
+    "!Not sequence",
+    "!Equals",
+    "!Equals sequence",
+    "!Or",
+    "!Or sequence",
+    "!FindInMap",
+    "!FindInMap sequence",
+    "!Base64",
+    "!Join",
+    "!Join sequence",
+    "!Cidr",
+    "!Ref",
+    "!Sub",
+    "!Sub sequence",
+    "!GetAtt",
+    "!GetAZs",
+    "!ImportValue",
+    "!ImportValue sequence",
+    "!Select",
+    "!Select sequence",
+    "!Split",
+    "!Split sequence"
+  ],
+  "aws.profile": "profile:default",
+  "json.schemas": [],
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration"
+}
