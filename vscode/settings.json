@@ -1,8 +1,8 @@
 {
-  // 01/11/2021
+  // 03/12/2020
 
   // editor setting
-  "editor.fontFamily": "Fira Code Retina",
+  "editor.fontFamily": "Fira Code",
   "editor.fontWeight": "normal",
   "editor.fontSize": 14,
   "editor.lineHeight": 22,
@@ -33,7 +33,7 @@
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.inheritEnv": true,
   "terminal.integrated.cursorStyle": "line",
-  "terminal.integrated.defaultProfile.windows": "Git Bash", // for Window OS
+  //   "terminal.integrated.defaultProfile.windows": "Git Bash", // for Window OS
   "terminal.integrated.splitCwd": "workspaceRoot",
 
   // breadrumbs
@@ -41,7 +41,7 @@
   "breadcrumbs.filePath": "on",
 
   // workbench
-  "workbench.colorTheme": "Atom One Dark",
+  "workbench.colorTheme": "Ocean Dark Extended",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.visible": true,
   "workbench.editor.enablePreview": false,
@@ -229,5 +229,8 @@
   ],
   "aws.profile": "profile:default",
   "json.schemas": [],
-  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration"
+  "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
+  "cSpell.userWords": ["cookiecutter"],
+  "python.defaultInterpreterPath": "python",
+  "redhat.telemetry.enabled": false
 }
