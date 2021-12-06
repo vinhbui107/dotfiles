@@ -1,6 +1,6 @@
 export ZSH="/Users/vinh/.oh-my-zsh"
 
-ZSH_THEME="robbyrussell"
+ZSH_THEME="powerlevel10k/powerlevel10k"
 
 plugins=(git k zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
 
