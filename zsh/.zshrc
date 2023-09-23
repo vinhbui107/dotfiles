@@ -1,12 +1,20 @@
-export ZSH="/Users/vinh/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="powerlevel10k/powerlevel10k"
 
-plugins=(git k zsh-completions zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(
+    git
+    zsh-completions
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+)
 
 source $ZSH/oh-my-zsh.sh
 
-alias zshconfig="code ~/.zshrc"
+# User configuration
+
+# alisas
+alias zsh-config="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
-alias python="python3"
+alias python=python3
 alias pip=pip3
