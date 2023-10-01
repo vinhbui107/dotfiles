@@ -12,9 +12,17 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
+eval "$(pyenv init -)"
+eval "$(pyenv virtualenv-init -)"
 
 # alisas
 alias zsh-config="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
 alias python=python3
 alias pip=pip3
+alias active="source venv/bin/activate"
+
+# Activate the virtual environment
+if [ -d "venv" ]; then
+    source "venv/bin/activate"
+fi
