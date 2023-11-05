@@ -11,11 +11,12 @@ plugins=(
 
 source $ZSH/oh-my-zsh.sh
 
-# PYENV configuration
-eval "$(pyenv init -)"
+# User configuration
+export PATH="$HOME/.pyenv/bin:$PATH"
+eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 
-# Alacritty configuration 
+# Config for Alacritty
 fifpath+=${ZDOTDIR:-~}/.zsh_functions
 fpath+=${ZDOTDIR:-~}/.zsh_functions
 
@@ -29,3 +30,4 @@ alias active="source venv/bin/activate"
 # Activate the virtual environment
 if [ -d "venv" ]; then
     source "venv/bin/activate"
+fi
