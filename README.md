@@ -1,1 +1,1 @@
-# My configs for Ubuntu OS
+# My configs for OS
