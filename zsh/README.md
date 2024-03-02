@@ -2,10 +2,11 @@
 ```
 # Ubuntu
 sudo apt install zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh"
 
 # Fedora
 dnf install zsh
+
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh"
 ```
 - Clone copy .zshrc
 - Install MesloLGS font https://github.com/romkatv/powerlevel10k#manual-font-installation
