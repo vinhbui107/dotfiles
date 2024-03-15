@@ -16,10 +16,6 @@ export PATH="$HOME/.pyenv/bin:$PATH"
 eval "$(pyenv init --path)"
 eval "$(pyenv virtualenv-init -)"
 
-# Config for Alacritty
-fifpath+=${ZDOTDIR:-~}/.zsh_functions
-fpath+=${ZDOTDIR:-~}/.zsh_functions
-
 # alisas
 alias zsh-config="code ~/.zshrc"
 alias ohmyzsh="code ~/.oh-my-zsh"
